@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Selenium Coding challenge Part 3- Naveen Automation Labs]" parallel="tests">
+  <listeners>
+    <listener class-name="com.capsulecrm.Listners.Listner"/>
+  </listeners>
+  <test thread-count="5" name="Add Person and Case(failed)" parallel="tests">
+    <classes>
+      <class name="com.capsulecrm.test.Test1">
+        <methods>
+          <include name="addPersonAndCase" invocation-numbers="0"/>
+          <include name="clean"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- com.capsulecrm.test.Test1 -->
+    </classes>
+  </test> <!-- Add Person and Case(failed) -->
+</suite> <!-- Failed suite [Selenium Coding challenge Part 3- Naveen Automation Labs] -->

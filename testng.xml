@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Selenium Coding challenge Part 3- Naveen Automation Labs" parallel="none">
+	
+	<listeners>
+	<listener class-name="com.capsulecrm.Listners.Listner"></listener>
+	</listeners>
+	<test name="Add Person and Case" preserve-order="true">
+		<classes>
+			<class name="com.capsulecrm.test.Test1"></class>
+			<class name="com.capsulecrm.test.SetupAndTear"></class>
+		</classes>
+	</test>
+<!--	<test name="Validate menu in account settings" preserve-order="true">-->
+<!--		<classes>-->
+<!--			<class name="com.capsulecrm.test.Test2"></class>-->
+<!--			<class name="com.capsulecrm.test.SetupAndTear"></class>-->
+<!--		</classes>-->
+<!--	</test>-->
+</suite>
